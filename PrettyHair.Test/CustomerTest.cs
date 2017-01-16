@@ -11,7 +11,7 @@ namespace PrettyHair.Test
     {
         CustomerRepository CR = new CustomerRepository();
         ICustomer tina = new Customer("Tina", "Gurli");
-        ICustomer lone = new Customer("", "");
+        ICustomer lone = new Customer("Lone", "Andersen");
         ICustomer ulla = new Customer("", "");
         ICustomer karl = new Customer("", "");
 
