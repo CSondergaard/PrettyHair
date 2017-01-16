@@ -12,7 +12,7 @@ namespace PrettyHair.Core.Repositories
 {
     public class ItemRepository
     {
-        private static string connectionstring = "DATABASE CONNECTION STRING";
+        private static string connectionstring = "Server=ealdb1.eal.local; Database=ejl06_db; User Id=ejl06_usr; Password=Baz1nga6";
         private Dictionary<int, IItem> Items = new Dictionary<int, IItem>();
         private int ID = 0;
 
