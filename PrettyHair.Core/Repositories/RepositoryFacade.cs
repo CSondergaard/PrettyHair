@@ -27,7 +27,8 @@ namespace PrettyHair.Core.Repositories
 
         public void AddItem(IItem item)
         {
-            throw new NotImplementedException();
+            ItemRepository it = new ItemRepository();
+            it.CreateItem(item);
         }
 
         public void CreateNewCustomer(ICustomer customer)
@@ -49,7 +50,8 @@ namespace PrettyHair.Core.Repositories
 
         public void RemoveItem(IItem item)
         {
-            throw new NotImplementedException();
+            ItemRepository it = new ItemRepository();
+            it.RemoveItemByID(item);
         }
 
         public void RemoveOrder(IOrder order)
