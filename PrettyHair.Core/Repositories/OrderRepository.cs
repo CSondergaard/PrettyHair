@@ -11,7 +11,7 @@ namespace PrettyHair.Core.Repositories
     public class OrderRepository
     {
         private Dictionary<int, IOrder> Orders = new Dictionary<int, IOrder>();
-        private int ID;
+        public int ID;
 
         public Dictionary<int, IOrder> GetAllOrders()
         {

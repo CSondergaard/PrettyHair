@@ -14,6 +14,8 @@ namespace PrettyHair.Core.Entities
         public int CustomerID { get; set; }
         public bool Processed { get; set; }
 
+        public int id { get; set; }
+
         public Order(DateTime deliverydate, DateTime orderdate, int cID)
         {
             if ((DateTime.Compare(deliverydate, orderdate)) < 0)

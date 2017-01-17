@@ -12,5 +12,7 @@ namespace PrettyHair.Core.Interfaces
         DateTime DeliveryDate { get; set; }
         int      CustomerID   { get; set; }
         bool     Processed    { get; set; }
+
+        public int id { get; set; }
     }
 }
