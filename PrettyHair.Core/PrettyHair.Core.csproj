@@ -41,12 +41,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entities\Customer.cs" />
-    <Compile Include="Entities\EntityKeyGenerator.cs" />
     <Compile Include="Entities\Item.cs" />
     <Compile Include="Entities\Order.cs" />
     <Compile Include="Entities\Orderline.cs" />
     <Compile Include="Helpers\Validation.cs" />
     <Compile Include="Interfaces\ICustomer.cs" />
+    <Compile Include="Interfaces\IFacade.cs" />
     <Compile Include="Interfaces\IItem.cs" />
     <Compile Include="Interfaces\IOrder.cs" />
     <Compile Include="Interfaces\IOrderline.cs" />
@@ -55,6 +55,7 @@
     <Compile Include="Repositories\ItemRepository.cs" />
     <Compile Include="Repositories\OrderlineRepository.cs" />
     <Compile Include="Repositories\OrderRepository.cs" />
+    <Compile Include="Repositories\RepositoryFacade.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram1.cd" />
