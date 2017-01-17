@@ -1,2 +1,9 @@
 C:\Users\casp4\Desktop\PrettyHair-master\PrettyHair\bin\Debug\PrettyHair.exe.config
 C:\Users\casp4\Source\Repos\PrettyHair\PrettyHair\bin\Debug\PrettyHair.exe.config
+C:\Users\casp4\Source\Repos\PrettyHair\PrettyHair\bin\Debug\PrettyHair.exe
+C:\Users\casp4\Source\Repos\PrettyHair\PrettyHair\bin\Debug\PrettyHair.pdb
+C:\Users\casp4\Source\Repos\PrettyHair\PrettyHair\bin\Debug\PrettyHair.Core.dll
+C:\Users\casp4\Source\Repos\PrettyHair\PrettyHair\bin\Debug\PrettyHair.Core.pdb
+C:\Users\casp4\Source\Repos\PrettyHair\PrettyHair\obj\Debug\PrettyHair.UI.csprojResolveAssemblyReference.cache
+C:\Users\casp4\Source\Repos\PrettyHair\PrettyHair\obj\Debug\PrettyHair.exe
+C:\Users\casp4\Source\Repos\PrettyHair\PrettyHair\obj\Debug\PrettyHair.pdb
