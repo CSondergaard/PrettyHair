@@ -10,6 +10,7 @@ namespace PrettyHair.Core.Entities
     {
 
         private static volatile EntityKeyGenerator instance;
+        private static object lockObject = new Object();
 
         public static EntityKeyGenerator Instance
         {
@@ -17,7 +18,13 @@ namespace PrettyHair.Core.Entities
             {
                 if (instance == null)
                 {
-                    instance = new EntityKeyGenerator();
+                    lock (lockObject)
+                    {
+                        if (instance == null)
+                        {
+                            instance = new EntityKeyGenerator();
+                        }
+                    }
                 }
                 return instance;
             }
