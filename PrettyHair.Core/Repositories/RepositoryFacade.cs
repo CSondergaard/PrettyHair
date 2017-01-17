@@ -45,13 +45,13 @@ namespace PrettyHair.Core.Repositories
         public void RemoveCustomer(ICustomer customer)
         {
             CustomerRepository cr = new CustomerRepository();
-            cr.RemoveCustomerByID(customer);
+            cr.RemoveCustomerByID(customer.id);
         }
 
         public void RemoveItem(IItem item)
         {
             ItemRepository it = new ItemRepository();
-            it.RemoveItemByID(item);
+            it.RemoveItemByID(item.id);
         }
 
         public void RemoveOrder(IOrder order)
