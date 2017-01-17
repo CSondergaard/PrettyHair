@@ -1,0 +1,5 @@
+C:\Users\casp4\Source\Repos\PrettyHair\PrettyHair.Core\obj\Debug\PrettyHair.Core.csprojResolveAssemblyReference.cache
+C:\Users\casp4\Source\Repos\PrettyHair\PrettyHair.Core\bin\Debug\PrettyHair.Core.dll
+C:\Users\casp4\Source\Repos\PrettyHair\PrettyHair.Core\bin\Debug\PrettyHair.Core.pdb
+C:\Users\casp4\Source\Repos\PrettyHair\PrettyHair.Core\obj\Debug\PrettyHair.Core.dll
+C:\Users\casp4\Source\Repos\PrettyHair\PrettyHair.Core\obj\Debug\PrettyHair.Core.pdb

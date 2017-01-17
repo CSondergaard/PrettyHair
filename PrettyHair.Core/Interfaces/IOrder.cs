@@ -13,6 +13,6 @@ namespace PrettyHair.Core.Interfaces
         int      CustomerID   { get; set; }
         bool     Processed    { get; set; }
 
-        public int id { get; set; }
+        int ID { get; set; }
     }
 }

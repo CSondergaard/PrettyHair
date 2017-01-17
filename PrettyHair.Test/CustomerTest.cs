@@ -10,10 +10,10 @@ namespace PrettyHair.Test
     public class CustomerTest
     {
         CustomerRepository CR = new CustomerRepository();
-        ICustomer tina = new Customer("Tina", "Gurli");
-        ICustomer lone = new Customer("Lone", "Andersen");
-        ICustomer ulla = new Customer("", "");
-        ICustomer karl = new Customer("", "");
+        ICustomer tina = new Customer("Tina", "Gurli", 1);
+        ICustomer lone = new Customer("Lone", "Andersen", 2);
+        ICustomer ulla = new Customer("", "", 3);
+        ICustomer karl = new Customer("", "", 4);
 
         [TestMethod]
         public void EmptyRepo()
