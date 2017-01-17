@@ -45,7 +45,8 @@ namespace PrettyHair.Core.Repositories
 
         private int NextID()
         {
-            return ++ID;
+            return EntityKeyGenerator.Instance.NextKey;
+
         }
     }
 }
