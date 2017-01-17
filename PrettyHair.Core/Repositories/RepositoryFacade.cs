@@ -9,10 +9,52 @@ namespace PrettyHair.Core.Repositories
 {
     class RepositoryFacade : IFacade
     {
-        public void CreateCustomer(ICustomer customer)
+        private static RepositoryFacade instance;
+
+        private RepositoryFacade() { }
+
+        public static RepositoryFacade Instance
+        {
+            get
+            {
+                if(instance == null)
+                {
+                    instance = new RepositoryFacade();
+                }
+                return instance;
+            }
+        }
+
+        public void AddItem(IItem item)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void CreateNewCustomer(ICustomer customer)
         {
             CustomerRepository cr = new CustomerRepository();
             cr.CreateCustomer(customer);
+        }
+
+        public void CreateOrder(IOrder order)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void RemoveCustomer(ICustomer customer)
+        {
+            CustomerRepository cr = new CustomerRepository();
+            cr.RemoveCustomerByID(customer);
+        }
+
+        public void RemoveItem(IItem item)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void RemoveOrder(IOrder order)
+        {
+            throw new NotImplementedException();
         }
     }
 }

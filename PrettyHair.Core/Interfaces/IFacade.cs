@@ -8,7 +8,7 @@ namespace PrettyHair.Core.Interfaces
 {
     interface IFacade
     {
-        void CreateCustomer(ICustomer customer);
+        void CreateNewCustomer(ICustomer customer);
 
         void RemoveCustomer(ICustomer customer);
 

@@ -11,7 +11,7 @@ namespace PrettyHair.Core.Repositories
     public class CustomerRepository
     {
         private Dictionary<int, ICustomer> Customers = new Dictionary<int, ICustomer>();
-        private int ID;
+        public int ID;
 
         public Dictionary<int, ICustomer> GetAllCustomers()
         {
