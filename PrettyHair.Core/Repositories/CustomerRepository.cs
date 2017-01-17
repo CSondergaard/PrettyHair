@@ -47,7 +47,8 @@ namespace PrettyHair.Core.Repositories
 
         private int NextID()
         {
-           ID = 
+            ID = EntityKeyGenerator.Instance.NextKey;
+            return ID;
         }
 
         private void AddCustomer(ICustomer customer, int ID)
