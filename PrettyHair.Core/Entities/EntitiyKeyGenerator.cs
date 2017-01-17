@@ -48,5 +48,47 @@ namespace PrettyHair.Core.Entities
                 return ++nextKey;
             }
         }
+
+        public virtual int RandomKey
+        {
+            get
+            {
+                Random rnd = new Random();
+                nextKey = rnd.Next();
+                return nextKey;
+            }
+        }
+
+        public virtual int DateKey
+        {
+            get
+            {
+                DateTime date = DateTime.Now;
+                nextKey = Convert.ToInt32(date.Ticks);
+                return nextKey;
+            }
+        }
+    }
+
+    class KeyFactory
+    {
+        static public int GetKey(int choice)
+        {
+            int key = 0;
+            switch(choice)
+            {
+                case 1:
+                    key = EntityKeyGenerator.Instance.NextKey;
+                    break;
+                case 2:
+                    key = EntityKeyGenerator.Instance.RandomKey;
+                    break;
+                case 3:
+                    key = EntityKeyGenerator.Instance.DateKey;
+                    break;
+
+            }
+            return key;
+        }
     }
 }
