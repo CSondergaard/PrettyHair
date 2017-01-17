@@ -47,7 +47,7 @@ namespace PrettyHair.Core.Repositories
 
         private int NextID()
         {
-            return ++ID;
+           ID = 
         }
 
         private void AddCustomer(ICustomer customer, int ID)
