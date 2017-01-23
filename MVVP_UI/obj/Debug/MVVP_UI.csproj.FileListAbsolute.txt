@@ -1,0 +1,16 @@
+C:\Users\casp4\Source\Repos\PrettyHair\MVVP_UI\bin\Debug\MVVP_UI.exe.config
+C:\Users\casp4\Source\Repos\PrettyHair\MVVP_UI\obj\Debug\MVVP_UI.csprojResolveAssemblyReference.cache
+C:\Users\casp4\Source\Repos\PrettyHair\MVVP_UI\obj\Debug\MainWindow.g.cs
+C:\Users\casp4\Source\Repos\PrettyHair\MVVP_UI\obj\Debug\App.g.cs
+C:\Users\casp4\Source\Repos\PrettyHair\MVVP_UI\obj\Debug\MVVP_UI_MarkupCompile.cache
+C:\Users\casp4\Source\Repos\PrettyHair\MVVP_UI\obj\Debug\MVVP_UI_MarkupCompile.lref
+C:\Users\casp4\Source\Repos\PrettyHair\MVVP_UI\bin\Debug\MVVP_UI.exe
+C:\Users\casp4\Source\Repos\PrettyHair\MVVP_UI\bin\Debug\MVVP_UI.pdb
+C:\Users\casp4\Source\Repos\PrettyHair\MVVP_UI\bin\Debug\PrettyHair.Core.dll
+C:\Users\casp4\Source\Repos\PrettyHair\MVVP_UI\bin\Debug\PrettyHair.Core.pdb
+C:\Users\casp4\Source\Repos\PrettyHair\MVVP_UI\obj\Debug\MainWindow.baml
+C:\Users\casp4\Source\Repos\PrettyHair\MVVP_UI\obj\Debug\MVVP_UI.g.resources
+C:\Users\casp4\Source\Repos\PrettyHair\MVVP_UI\obj\Debug\MVVP_UI.Properties.Resources.resources
+C:\Users\casp4\Source\Repos\PrettyHair\MVVP_UI\obj\Debug\MVVP_UI.csproj.GenerateResource.Cache
+C:\Users\casp4\Source\Repos\PrettyHair\MVVP_UI\obj\Debug\MVVP_UI.exe
+C:\Users\casp4\Source\Repos\PrettyHair\MVVP_UI\obj\Debug\MVVP_UI.pdb
