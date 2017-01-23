@@ -15,7 +15,9 @@ using System.Windows.Shapes;
 using PrettyHair.Core.Interfaces;
 using PrettyHair.Core.Entities;
 using PrettyHair.Core.Repositories;
-using PrettyHair.Core.Helpers;  
+using PrettyHair.Core.Helpers;
+using System.Data;
+using System.Collections;
 
 namespace MVVP_UI
 {
@@ -76,13 +78,16 @@ namespace MVVP_UI
                 Header = "Price",
                 DisplayMemberBinding = new Binding("Price")
             });
-            IR.RefreshItems();
+          
             PrintStock();
-            
+
         }
 
         private void PrintStock()
         {
+            listView.Items.Clear();
+            IR.RefreshItems();
+
             foreach (KeyValuePair<int, IItem> item in IR.GetItems())
             {
                 this.listView.Items.Add(new MyItem { Id = item.Key, Name = item.Value.Name, Desc = item.Value.Description, Amount = item.Value.Amount, Price = item.Value.Price });
@@ -92,15 +97,24 @@ namespace MVVP_UI
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-            IItem item = new Item();
-            item.Name = AskForString("Write item name");
-            item.Description = AskForString("Write item description");
-            item.Amount = AskForInteger("Write item amount");
-            item.Price = AskForDouble("Write item price");
 
-            IR.CreateItem(item);
+            MyItem row = (MyItem)listView.SelectedItems[0];
+            if (row != null)
+            {
+                int id;
+                id = Convert.ToInt32(row.Id);
+                IR.RemoveItemByID(id);
 
-    
+                PrintStock();
+            }
+            else
+            {
+                PrintStock();
+            }
+
+           
+
+
         }
 
         public string AskForString(string message = "")
