@@ -5,20 +5,29 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MVVP_UI"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="525" Width="530.882">
     <Grid>
         <StackPanel HorizontalAlignment="left">
 
 
 
         </StackPanel>
-        <Button x:Name="button" Content="Slet" HorizontalAlignment="Left" Margin="10,267,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
-        <ListView x:Name="listView" HorizontalAlignment="Left" Height="171" Margin="10,10,0,0" VerticalAlignment="Top" Width="497" SelectionChanged="listView_SelectionChanged">
+        <Button x:Name="button" Content="Slet" HorizontalAlignment="Left" Margin="10,442,0,0" VerticalAlignment="Top" Width="497" Click="button_Click" Height="29"/>
+        <ListView x:Name="listView" HorizontalAlignment="Left" Height="263" Margin="10,174,0,0" VerticalAlignment="Top" Width="497" SelectionChanged="listView_SelectionChanged">
             <ListView.View>
                 <GridView>
                     <GridViewColumn/>
                 </GridView>
             </ListView.View>
         </ListView>
+        <Button x:Name="button1" Content="Opret ny" HorizontalAlignment="Left" Margin="10,139,0,0" VerticalAlignment="Top" Width="497" Click="button1_click"/>
+        <TextBox x:Name="txtName" HorizontalAlignment="Left" Height="23" Margin="83,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="419"/>
+        <Label x:Name="label" Content="Name" HorizontalAlignment="Left" Margin="10,6,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1" Content="Desc" HorizontalAlignment="Left" Margin="10,37,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label2" Content="Price" HorizontalAlignment="Left" Margin="10,68,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label3" Content="Amount" HorizontalAlignment="Left" Margin="10,98,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtDesc" HorizontalAlignment="Left" Height="23" Margin="83,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="419"/>
+        <TextBox x:Name="txtPrice" HorizontalAlignment="Left" Height="23" Margin="83,71,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="419"/>
+        <TextBox x:Name="txtAmount" HorizontalAlignment="Left" Height="23" Margin="83,101,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="419"/>
     </Grid>
 </Window>
